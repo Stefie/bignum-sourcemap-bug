@@ -25,7 +25,7 @@ export function add(a: i32, b: i32): Uint8Array {
 }
 ```
 
-**When running `asbuild` I'm getting this bug. It only happens when the `---sourceMap` option is used.**
+**When running `asbuild` I'm getting these error messages (for both optimized & untouched). It only happens when the `---sourceMap` option is used.**
 
 ```
 > @ asbuild:untouched /Users/stefaniedoll/Parity/ParityJS/bignum-assemblyscript
