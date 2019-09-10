@@ -2,9 +2,9 @@
 Just a stripped down demo for compiler bug...
 
 
-Steps how I got here:
+# Steps how I got here:
 
-Create a new sterter project & ass bignum as a dependency:
+Create a new sterter project & add bignum as a dependency:
 
 ```
 $ mkdir new-project && cd new-project
@@ -13,7 +13,7 @@ $ npx asinit .
 $ yarn add MaxGraey/bignum.wasm
 ```
 
-And then I imported & used bignum in assembly/index.ts
+# And then I imported & used bignum in assembly/index.ts
 
 ```
 import { u128 } from "bignum/integer/u128";
@@ -25,7 +25,7 @@ export function add(a: i32, b: i32): Uint8Array {
 }
 ```
 
-When running `asbuild` I'm getting this bug. It only happens when the `---sourceMap` option is used.
+# When running `asbuild` I'm getting this bug. It only happens when the `---sourceMap` option is used.
 
 ```
 > @ asbuild:untouched /Users/stefaniedoll/Parity/ParityJS/bignum-assemblyscript
