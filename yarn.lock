@@ -7,6 +7,11 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
+  integrity sha1-JI8Kn25aUo7yKV2+7DBTITCuIjU=
+
 assemblyscript@AssemblyScript/assemblyscript:
   version "0.7.0"
   resolved "https://codeload.github.com/AssemblyScript/assemblyscript/tar.gz/c65a05616b5dda5b8c2f413c57e31e5f0cbc5af2"
